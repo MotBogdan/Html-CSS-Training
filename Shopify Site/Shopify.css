@@ -1,0 +1,256 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-img{
+    max-width: 7%;
+    height: 7%;
+}
+
+
+.navTitle{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 37px;
+    margin: 0%;
+    
+}
+
+.secNavbar{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    
+
+}
+
+.subTitle{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 49px;
+    
+}
+
+.textBody{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.btnSub{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.btn-Subscribe{
+    display:flex;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 25px;
+    height: 52px;
+    margin: 0px 350px 0px 350px;
+    width: 430px;
+}
+
+
+.email{
+    display:flex;
+    justify-content: center;
+    margin-left: 16px;
+    border: 0;
+    width: 179px;
+    font-size: 100%;
+    color: rgba(128, 128, 128, 0.801);
+    background: transparent;
+    
+    
+    }
+
+
+    .freeTrial{
+        display: flex;
+        justify-content: center;
+        margin-right: 2px;
+        border-radius: 25px;
+        background-color: black;
+        color: white;
+        font-size: 100%;
+        outline: inherit;
+        border: 0;
+        margin-top: 2px;
+        margin-bottom: 3px;
+        
+        
+    }
+
+    .freeTrial:hover{
+        cursor:pointer;
+        background-color: rgba(0, 0, 0, 0.749);
+    }
+
+    .underBtn{
+        display: flex;
+        justify-content: center;
+        font-size: 90%;
+        
+    }
+
+    
+    .background{
+        background-image: url("./beach.png");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        filter: blur(50px);
+        opacity: 0.5;
+    }
+
+.underBtn{
+    font-size: small;
+}
+    
+.marketPic{
+    display:flex;
+    justify-content: center;
+    height:250px;
+
+}
+
+.threeIcons{
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+
+.one{
+    display:flex;
+    margin-left: -139px;
+}
+
+.threeIconsContainer{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    
+    
+}
+
+.pak1{
+    display:flex;
+    flex-direction: column;
+    margin-left: 53px;
+}
+
+.iconOne{
+    display:flex;
+    justify-content: left;
+    width: 65px;
+    height: 65px;
+}
+
+.bothText1{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.iconOneTitle{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.iconOneText{
+    display: flex;
+    justify-content: left;
+}
+
+.pak2{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconTwo{
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+
+.bothText2{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.iconTwoTitle{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.iconTwoText{
+    display:flex;
+    justify-content: left;
+}
+
+.pak3{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconThree{
+    display:flex;
+    justify-content: right;
+    width: 65px;
+    height: 65px;
+
+}
+
+.bothText3{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.iconThreeTitle{
+    display:flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.iconThreeText{
+    display:flex;
+    justify-content: left;
+
+}
+
+.line hr{
+    display:flex;
+    background-color: rgba(128, 128, 128, 0.799);
+}
